@@ -22,7 +22,7 @@ nav ul {
 	background-color:#43a326;
 	border: 4px solid #111111;
 	border-radius: 10px;
-	font-family:eastwood;
+	font-family: Pushster;
 	padding: 16px;
 }
 nav ul li {
@@ -44,6 +44,10 @@ nav li a:hover {
 a:active {
 	text-decoration: underline;
 	background-color: black;
+	color: white;
+}
+a:hover {
+	text-decoration: none;
 	color: white;
 }
 p.top-tip {
@@ -68,7 +72,7 @@ section {
 	background-color:#43a326;
 	border: 4px solid #111111;
 	border-radius: 10px;
-	font-family:eastwood;
+	font-family: Pushster;
 	Margin-bottom: 24px;
 	min-height: 350px;
 }
@@ -88,5 +92,8 @@ section ul li {
 }
 a {
 	text-decoration: none;
-	color:#111111
+	color:#111111;
+}
+p a {
+	font-size: 20px;
 }
